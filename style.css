@@ -1,0 +1,41 @@
+header {
+    background-color: rgb(15, 130, 196);
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+header nav ul li:last-child a {
+    padding-right: 0;
+}
+
+@media all and (min-width: 600px){
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+    }
+
+    
+}
